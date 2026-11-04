@@ -1,0 +1,7 @@
+{
+  "name":"CR DRIVE — диспетчер","short_name":"CR DRIVE",
+  "description":"Защищённый мониторинг водителей CR DRIVE",
+  "start_url":"./dispatcher.html","scope":"./","display":"standalone",
+  "background_color":"#080b10","theme_color":"#080b10",
+  "icons":[{"src":"./assets/logo.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

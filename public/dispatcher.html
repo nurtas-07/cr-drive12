@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://*.supabase.co; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="theme-color" content="#080b10"><meta name="application-name" content="CR DRIVE Dispatcher">
+<link rel="manifest" href="dispatcher.webmanifest"><link rel="icon" href="assets/favicon.svg"><link rel="apple-touch-icon" href="assets/logo.svg">
+<title>CR DRIVE · Диспетчер</title><link rel="stylesheet" href="dispatcher.css"><link rel="stylesheet" href="dispatcher-pwa.css"></head><body>
+<main><header><a href="./index.html">CR DRIVE</a><span>Кабинет диспетчера</span></header>
+<section id="login-panel" class="driver"><p class="eyebrow">ЗАЩИЩЁННЫЙ ДОСТУП</p><h1>Вход диспетчера</h1>
+<form id="login-form"><label>Email<input id="email" type="email" autocomplete="username" required></label><label>Пароль<input id="password" type="password" autocomplete="current-password" required></label><button class="call" type="submit">Войти</button></form><p id="login-status" class="note" role="status"></p></section>
+<div id="live-panel" hidden><section class="driver"><p class="eyebrow">CR DRIVE · ДИСПЕТЧЕР</p><h1>Водители в реальном времени</h1><div class="contact"><button id="install-app" class="call" type="button" hidden>Установить приложение</button><button id="logout" class="secondary" type="button">Выйти</button></div><p id="network-status" class="note" role="status"></p><div id="driver-list" class="driver-list" aria-label="Водители"></div><p id="connection" class="connection">Подключение…</p></section>
+<section><div class="record-heading"><h2>Последние показатели</h2><span id="updated-at">—</span></div><div class="metrics">
+<article><span>Транспорт</span><strong id="vehicle">—</strong></article><article><span>Пульс</span><strong><output id="heart">—</output> <small>уд/мин</small></strong></article><article><span>Кислород · SpO₂</span><strong><output id="oxygen">—</output> <small>%</small></strong></article><article><span>Часы</span><strong id="on-body">—</strong></article><article><span>Заряд</span><strong><output id="battery">—</output> <small>%</small></strong></article></div>
+<p class="note">Показатели поступают с приложения водителя. Если обновлений нет более 30 секунд, данные автоматически отмечаются как устаревшие.</p></section>
+<section class="waiting"><h2>Местоположение часов</h2><p id="location">Нет свежей GPS-точки</p><a id="map-link" class="secondary link" hidden rel="noopener" target="_blank">Открыть точку на карте ↗</a></section></div>
+</main><script src="runtime-config.js"></script><script src="dispatcher.js"></script></body></html>
