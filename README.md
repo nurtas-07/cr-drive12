@@ -1,6 +1,8 @@
 # CR Drive
 
-Сайт CR Drive: вступление с новостным монтажом, ShimmerText, интерактивный мониторинг, тарифы и калькулятор автопарка. React, TypeScript, Tailwind CSS 4, Vite. Три языка: RU/KZ/EN.
+Сайт CR Drive: полностью тёмное оформление, выразительная жирная типографика, вступление с новостным монтажом, ShimmerText, интерактивный мониторинг, тарифы и калькулятор автопарка. React, TypeScript, Tailwind CSS 4, Vite. Три языка: RU/KZ/EN.
+
+Instagram проекта: https://www.instagram.com/crdrive.kz/.
 
 ## Публикация
 

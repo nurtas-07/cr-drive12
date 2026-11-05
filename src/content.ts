@@ -1,6 +1,6 @@
 export type Language='ru'|'kz'|'en';
 export const telegram='https://t.me/nu_wwx';
-export const instagram='https://instagram.com/kr.drivee/';
+export const instagram='https://www.instagram.com/crdrive.kz/';
 export const news=[
  {source:'NUR.KZ',date:'04.11.2026',region:'Акмолинская область',title:'Умер полицейский, пострадавший в ДТП в Акмолинской области',url:'https://nur.kz/incident/road-accident/2451981-umer-policeyskiy-postradavshiy-v-dtp-v-akmolinskoy-oblasti/',image:false},
  {source:'24KZ',date:'11.08.2026',region:'Актобе',title:'Мотоциклист погиб в ДТП с грузовиком в Актобе',url:'https://24.kz/ru/news/incidents/784985-mototsiklist-pogib-v-dtp-s-gruzovikom-v-aktobe-voditelya-zaderzhali',image:true},
